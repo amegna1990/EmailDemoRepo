@@ -5,6 +5,7 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.interactions.Actions;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -95,7 +96,10 @@ public class MouseHoverDragAndDrop {
 		//key events to copy the text
 		
 		WebDriverManager.chromedriver().setup();
-		ChromeDriver driver = new ChromeDriver();
+		ChromeOptions chromeOptions = new ChromeOptions();
+	
+		chromeOptions.addArguments("--remote-allow-origins=*");
+		WebDriver driver = new ChromeDriver(chromeOptions);
 		driver.get("https://extendsclass.com/text-compare.html");
 		driver.manage().window().maximize();
 		
