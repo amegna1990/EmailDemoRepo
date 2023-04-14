@@ -17,7 +17,7 @@ public class FramesAndWindowsDemo {
 	public static void main(String[] args) throws InterruptedException {
 		WebDriverManager.chromedriver().setup();
 		ChromeDriver driver = new ChromeDriver();
-		
+		// handle multiple frames
 		/*//handle swithching to multiple frames 
 		 * driver.get(("https://www.w3schools.com/js/tryit.asp?filename=tryjs_alert"));
 		 * driver.manage().window().maximize();
