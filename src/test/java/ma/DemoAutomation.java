@@ -11,8 +11,7 @@ public class DemoAutomation {
 
 	public static void main(String[] args) {
 
-		
-// add again
+////ppppp
 		//System.setProperty("webdriver.chrome.driver","C:\\MySelinium\\webdriver\\chromedriver.exe");
 		WebDriverManager.chromedriver().setup();
 		ChromeOptions chromeOptions = new ChromeOptions();
