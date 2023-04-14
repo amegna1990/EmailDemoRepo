@@ -18,7 +18,7 @@ public class DemoAutomation {
 	
 		chromeOptions.addArguments("--remote-allow-origins=*");
 		WebDriver driver = new ChromeDriver(chromeOptions);
-		
+		// firefox driver
 		//System.setProperty("webdriver.gecko.driver","C:\\MySelinium\\webdriver\\geckodriver.exe" );
 		//FirefoxDriver driver= new FirefoxDriver();
 		driver.get("http://www.ebay.com");
