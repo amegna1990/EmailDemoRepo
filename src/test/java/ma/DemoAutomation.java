@@ -10,7 +10,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class DemoAutomation {
 
 	public static void main(String[] args) {
-	// for remote branch1
+
 		
 
 		//System.setProperty("webdriver.chrome.driver","C:\\MySelinium\\webdriver\\chromedriver.exe");
