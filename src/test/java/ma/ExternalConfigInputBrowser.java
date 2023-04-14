@@ -9,7 +9,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class ExternalConfigInputBrowser {
-
+//delete tis comment
 	public static String browser = "chrome";
 	public static WebDriver driver;
 
